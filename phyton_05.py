@@ -38,23 +38,23 @@ def conversor_celcius_to_farenheit(param1: int):
 value_1 = int(input("ingresa un numero:"))
 value_2 = int(input("ingresa otro numero:"))
 sum = suma(value_1, value_2)
-print(sum)
+print(f"El resultado de la suma es: {sum}")
 res = resta(value_1, value_2)
-print(res)
+print(f"El resultado de la resta es: {res}")
 mul = multiplicacion(value_1, value_2)
-print(mul)
+print(f"El resultado de la multiplicación es: {mul}")
 div = division(value_1, value_2)
-print(div)
+print(f"El resultado de la devision es: {div}")
 mod = modulo(value_1, value_2)
-print(mod)
+print(f"El resultado del modulo es: {mod}")
 
 valor_flotante = int(input("ingresa un numero entero:"))
 result = convierte_enteros(valor_flotante)
-print(result)
+print(f"El resultado de la conversion a flotante fue: {result}")
 
 celcius = int(input("Ingresa los grados celcius a convertir en Farenheit:"))
 show = conversor_celcius_to_farenheit(celcius)
-print(show)
+print(f"Los Celcius ingresados equivalen a {show} Farenheit")
 
 """""EXTRA:
 Escribe una función llamada "es_par" que tome un número entero como parámetro y 
@@ -66,7 +66,7 @@ Imprime en pantalla un mensaje indicando si el número es par o impar."""
 def es_par(param1):
     return param1%2
 
-num = int(input("Ingresa un numero para verificar si es par o inpar"))
+num = int(input("Ingresa un numero para verificar si es par o inpar:"))
 par_inpar = es_par(num)
 if (par_inpar == 0):
     print("El numero ingresado es Par")
