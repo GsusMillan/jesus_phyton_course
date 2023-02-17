@@ -72,3 +72,5 @@ if (par_inpar == 0):
     print("El numero ingresado es Par")
 else:
     print("El numero ingresado es Inpar")
+
+#error en el nombre del commit
